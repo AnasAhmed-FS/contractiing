@@ -1,0 +1,65 @@
+/* Navpar changed  */
+
+.navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link {
+    color: #fff;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', "Calibri", 'Trebuchet MS', sans-serif;
+}
+
+.navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link:hover {
+    background-color: #ad5389;
+    border-radius: 0px 10px 0px 10px;
+    transition: all .8s ease;
+}
+
+.active {
+    background-color: rgba(146, 67, 114, 0.6);
+    border-radius: 0px 10px 0px 10px;
+}
+
+#nav_btn {
+    color: #fff !important;
+    border: solid 2px #fff;
+    font-weight: 600;
+}
+
+#nav_btn:hover {
+    background-color: #ad5389;
+    transition: all .5s ease;
+}
+
+
+/* Footer changed  */
+
+footer {
+    background-color: #3c1053;
+    width: 100%;
+    padding: 5px;
+}
+
+footer .container .icons_logo .icon a .fab {
+    background-color: #ad5389;
+    color: #fff;
+    padding: 5px;
+}
+
+footer .container .icons_logo .icon a .fab:hover {
+    background-color: #fff;
+    color: #ad5389;
+    transition: all .8s ease;
+}
+
+footer .container .services ul li a {
+    color: #fff
+}
+
+footer .container,
+footer .container .quick_links ul li a {
+    color: #fff
+}
+
+.quick_links .navbar-nav .nav-item:hover {
+    background-color: #ad5389;
+    border-radius: 0px 10px 0px 10px;
+    transition: all .8s ease;
+}
