@@ -54,6 +54,24 @@
 }
 
 
+/* Start in Slider  */
+
+.bg_image {
+    background-color: rgb(196, 181, 181);
+}
+
+.slider {
+    background-image: url('../img/mwangi-gatheca-qlKaN7eqay8-unsplash.jpg');
+    height: 400px;
+    background-size: cover;
+    background-position: top center;
+}
+
+.slider .definition .text_dif {
+    color: #fff;
+}
+
+
 /* Footer changed  */
 
 footer {
