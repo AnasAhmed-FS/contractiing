@@ -163,15 +163,53 @@
     padding: 30px;
 }
 
+
+/* Time Line to company  */
+
 .all_company_Video_tag .video_exp .def_aff,
-.time_line .time_line_exp .def_aff {
+.time_line .time_line_exp .def_aff,
+.projectes_explain .def_aff {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: oblique;
     color: rgba(136, 136, 136, 0.8);
 }
 
 
-/* Time Line to company  */
+/* projectes  */
+
+#carouselProject .carousel-inner .carousel-item .carousel-caption h5 {
+    color: #000;
+    background-color: rgb(224, 224, 224, .5);
+    padding: 20px;
+    border-radius: 44px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    font-weight: 600;
+}
+
+#carouselProject .carousel-inner .carousel-item .carousel-caption button {
+    background-color: #ad5389;
+    color: #fff;
+    font-weight: 900;
+    border: solid #fff 3px;
+}
+
+#carouselProject .carousel-inner .carousel-item .carousel-caption button:hover {
+    background-color: #fff;
+    color: #ad5389;
+    border: solid 2px #ad5389;
+    transition: all ease-in-out .5s;
+}
+
+#carouselProject .carousel-control-next-icon,
+.carousel-control-prev-icon {
+    background-color: #000 !important;
+}
+
+.projectes_explain {
+    background-color: #f0f0f0;
+    border-radius: 30px;
+}
 
 
 /* Footer changed  */
