@@ -1,5 +1,9 @@
 /* Navpar changed  */
 
+* {
+    box-sizing: border-box;
+}
+
 
 /* First NavPar */
 
@@ -60,7 +64,7 @@
 /* Start in Slider  */
 
 .bg_image {
-    background-image: url('../img/kai-pilger-36NFLYFdr-k-unsplash.jpg');
+    background-image: url('../img/kai-pilger-36NFLYFdr-k-unsplash.wpage');
     height: 400px;
     background-size: cover;
     background-attachment: fixed;
@@ -142,6 +146,32 @@
     color: #ad5389 !important;
     border: #ad5389 solid 3px;
 }
+
+
+/* Comany Video */
+
+.all_company_Video_tag {
+    background-color: #f0f0f0;
+    border-radius: 30px;
+}
+
+.all_company_Video_tag .video_exp .aff,
+.time_line .time_line_exp .aff {
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800px;
+    padding: 30px;
+}
+
+.all_company_Video_tag .video_exp .def_aff,
+.time_line .time_line_exp .def_aff {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    color: rgba(136, 136, 136, 0.8);
+}
+
+
+/* Time Line to company  */
 
 
 /* Footer changed  */
