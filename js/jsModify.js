@@ -52,3 +52,12 @@ var carousel = new bootstrap.Carousel(myCarousel, {
     wrap: false,
     touch: true
 })
+
+// clients
+
+var myCarousel = document.querySelector('#carouselclients')
+var carousel = new bootstrap.Carousel(myCarousel, {
+    interval: 2000,
+    wrap: false,
+    touch: true
+})
