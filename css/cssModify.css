@@ -64,10 +64,9 @@
 /* Start in Slider  */
 
 .bg_image {
-    background-image: url('../img/kai-pilger-36NFLYFdr-k-unsplash.wpage');
+    background-image: url('../img/kai-pilger-36NFLYFdr-k-unsplash-min.jpg');
     height: 400px;
     background-size: cover;
-    background-attachment: fixed;
 }
 
 .slider {
@@ -177,9 +176,13 @@
 
 /* projectes  */
 
+#carouselProject .carousel-inner {
+    border-radius: 44px;
+}
+
 #carouselProject .carousel-inner .carousel-item .carousel-caption h5 {
-    color: #000;
-    background-color: rgb(224, 224, 224, .5);
+    color: #fff;
+    background-color: rgba(70, 70, 70, 0.5);
     padding: 20px;
     border-radius: 44px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -191,19 +194,20 @@
     background-color: #ad5389;
     color: #fff;
     font-weight: 900;
-    border: solid #fff 3px;
+    border: none;
+    border-radius: 0px 10px 0px 10px;
 }
 
 #carouselProject .carousel-inner .carousel-item .carousel-caption button:hover {
     background-color: #fff;
     color: #ad5389;
-    border: solid 2px #ad5389;
+    border: solid 3px #ad5389;
     transition: all ease-in-out .5s;
 }
 
 #carouselProject .carousel-control-next-icon,
 .carousel-control-prev-icon {
-    background-color: #000 !important;
+    background-color: #ad5389 !important;
 }
 
 .projectes_explain {
@@ -218,14 +222,20 @@
 
 /* clients  */
 
+.clients .exp_clients .aff {
+    border-radius: 44px;
+    color: #000;
+    text-shadow: 1px 1px 2px black, 0 0 25px #ad5389, 0 0 5px darkblue;
+}
+
 .clients .carousel .carousel-inner {
     border-radius: 44px;
-    box-shadow: 1px 1px 4px 4px rgb(235, 235, 235);
+    box-shadow: 1px 1px 4px 4px rgb(184, 184, 184);
 }
 
 .clients .carousel .carousel-inner .carousel-item .card {
-    background-color: rgb(238, 238, 238)!important;
-    padding: 20px;
+    background-color: rgb(243, 243, 243)!important;
+    padding: 50px;
     text-align: center;
 }
 
@@ -236,10 +246,78 @@
     padding: 30px;
 }
 
+.clients #carouselclients .carousel-inner .carousel-item .card img {
+    width: 30%;
+    height: 30%;
+}
+
 .clients #carouselclients .carousel-inner .carousel-item .card .card-body .card-text {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: oblique;
     color: rgba(136, 136, 136, 0.8);
+}
+
+.clients #carouselclients .carousel-control-prev .control_icon,
+.clients #carouselclients .carousel-control-next .control_icon {
+    background-color: #ad5389 !important;
+    border-radius: 50%;
+}
+
+
+/* message form */
+
+.message_form .exp_message {
+    background: url('../img/rigs.jpg');
+    background-size: cover;
+    background-position: bottom right;
+    color: #fff;
+}
+
+.message_form form {
+    border-radius: 44px;
+    box-shadow: 1px 1px 4px 4px rgb(184, 184, 184);
+    background-color: rgb(255, 255, 255)!important;
+}
+
+.message_form form .form-control {
+    background-color: #efefef;
+}
+
+.message_form .exp_message_bg {
+    background-color: rgb(0, 0, 0, .6);
+    height: 100%;
+    width: 100%;
+}
+
+.message_form .exp_message .aff {
+    color: #fff !important;
+    font-size: 30px;
+}
+
+.message_form .exp_message .def_aff {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    color: #fff;
+}
+
+.message_form h2,
+.message_form .exp_message .aff {
+    font-size: 14px;
+    margin-bottom: 30px;
+    color: #000;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+}
+
+.message_form button {
+    background-color: #ad5389;
+    border: none;
+}
+
+.message_form button:hover {
+    background-color: #833f68;
+    transition: all ease-in-out .5s;
 }
 
 
