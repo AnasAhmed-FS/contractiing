@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="css/cssModify.css">
     <link rel="stylesheet" href="css/bootstrap5.min.css">
     <link rel="stylesheet" href="css/all.min.css">
+    <!-- AOS animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <title>Excellence Palace</title>
 </head>
 <!-- Color Style ((((((  #ad5389  && #3c1053       )))))) -->
@@ -17,7 +20,7 @@
     <!-- Fistly create header to have nevigation and    -->
     <header>
         <!-- First NavPar -->
-        <nav class="  navbar-light  bg-dark text-white  " aria-label="Main navigation">
+        <nav class="  navbar-light  bg-dark text-white  " data-aos-duration="5000" data-aos="zoom-in" aria-label="Main navigation">
             <div class="container ">
                 <div class="row">
                     <div class="left_side col-md-6  justify-content-start">
@@ -43,7 +46,7 @@
         </nav>
 
         <!-- Second NavPar -->
-        <nav id="navbar_top" class="navbar navbar-expand-lg navbar-light bg-light  " aria-label="Secondary navigation">
+        <nav id="navbar_top" data-aos="zoom-in-up" data-aos-duration="5000" class="navbar navbar-expand-lg navbar-light bg-light  " aria-label="Secondary navigation">
             <div class="container-fluid" style="background-color: #3c1053 !important;">
                 <a class=" " style="background-color: #ad5389 !important;color:  #fff;padding: 1%;margin-left:-13px; text-decoration: none;font-weight: 600;" href=" ">Excellence Palace</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -88,13 +91,13 @@
     <!-- Home Page  -->
     <!-- Slider Page -->
     <section class="bg_image ">
-        <div class="slider">
+        <div class="slider" data-aos-duration="5000" data-aos="fade-up">
             <div class=" container ">
                 <div class="row">
                     <div class="definition pt-5 pb-5 col-xm-10 col-md-8 m-auto ">
                         <p id="text_dif" class="text_dif"> </p>
                     </div>
-                    <div class="btn_home col-12 m-auto   pt-2 pb-5 ">
+                    <div class="btn_home col-12 m-auto   pt-2 pb-5 " data-aos-duration="1000" data-aos="fade-up">
                         <button type="button" class="btn col-5   offset-3   ">GET START</button>
                     </div>
                 </div>
@@ -105,13 +108,13 @@
     </section>
 
     <!-- Quality  -->
-    <section class="quality pt-5 pb-5">
+    <section class="quality pt-5 pb-5" data-aos-duration="5000">
         <div class="container">
             <div class="row">
                 <div class="qu_img order-xs-3  col-12 col-md-6">
-                    <img src="img/xabout.jpg.pagespeed.ic.QZGKD44nUp.jpg" class="col-sm-12" height=400px width="100%" ">
+                    <img src="img/xabout.jpg.pagespeed.ic.QZGKD44nUp.jpg" data-aos="fade-right" class="col-sm-12" height=400px width="100%" ">
                 </div>
-                <div class="qu_dfi order-xs-2 col-12 col-md-6 ">
+                <div class="qu_dfi order-xs-2 col-12 col-md-6 " data-aos="fade-left ">
                     <h2 class="aff ">
                         Quality and Affordable Constructor
                     </h2>
@@ -126,7 +129,7 @@
 
         <!-- Services  -->
     <section class="services pt-4 pb-5 "">
-                    <div class="explain_service">
+                    <div class="explain_service" data-aos-duration="1000" data-aos="fade-down">
                         <div class="container">
                             <div class="row">
 
@@ -147,7 +150,7 @@
                     </div>
                     <div class="container-fluid   ">
                         <div class="row d-flex justify-content-evenly ">
-                            <div class="card mb-3 col-9 col-md-3   ">
+                            <div class="card mb-3 col-9 col-md-3   " data-aos="fade-down">
                                 <img src="img/maintance.jpg " class="card-img-top pt-2 " alt="... ">
                                 <div class="card-body ">
                                     <h5 class="card-title ">Maintenance of Buldings</h5>
@@ -156,7 +159,7 @@
                                 </div>
                             </div>
 
-                            <div class="card mb-3 col-9 col-md-3  ">
+                            <div class="card mb-3 col-9 col-md-3  " data-aos="fade-down">
 
                                 <img src="img/kyle-nieber-8z805WwAZyA-unsplash.jpg " height=201px class="card-img-top pt-2 " width=100% alt="... ">
                                 <div class="card-body  ">
@@ -168,7 +171,7 @@
 
                             </div>
 
-                            <div class="card mb-3 col-9 col-md-3  ">
+                            <div class="card mb-3 col-9 col-md-3  " data-aos="fade-down">
                                 <img src="img/cleaner.jpg " class="card-img-top pt-2 " alt="... ">
                                 <div class="card-body ">
                                     <h5 class="card-title ">General Cleaning Works</h5>
@@ -188,7 +191,7 @@
         <div class="container-fluid">
             <div class="row">
                 <!-- Here you will see writes about video -->
-                <div class="video_exp col-12 col-md-5  m-auto">
+                <div class="video_exp col-12 col-md-5  m-auto" data-aos="fade-down">
 
                     <h2 class="aff ">
                         OUR VIDEO ABOUT US
@@ -198,7 +201,7 @@
                 </div>
 
                 <!-- main video  -->
-                <div class="company_video p-2  col-12 col-md-5">
+                <div class="company_video p-2  col-12 col-md-5" data-aos="fade-down">
                     <link href="https://vjs.zencdn.net/7.11.4/video-js.css" rel="stylesheet" />
                     <div class=" ">
                         <video id="my-video" class="video-js col-12 col-md-10" height=300px controls preload="auto" poster="img/xservices.jpg.pagespeed.ic.pXWDj1gQAE.jpg" data-setup="{}">
@@ -223,7 +226,7 @@
     </section>
 
     <!-- Time Line for company  -->
-    <section class="time_line   pb-5  ">
+    <section class="time_line   pb-5  " data-aos="fade-down">
         <div class="time_line_exp col-8  col-md-5 m-auto   ">
 
             <h2 class="aff ">
@@ -254,7 +257,7 @@
             <div class="row">
                 <!-- some difination about  -->
 
-                <div class="projectes_explain col-8 col-md-4  m-auto ">
+                <div class="projectes_explain col-8 col-md-4  m-auto " data-aos="fade-down">
 
                     <h2 class="aff ">
                         OUR PROJECTES
@@ -266,7 +269,7 @@
                 </div>
                 <!-- Projectes  Carousel  -->
 
-                <div id="carouselProject" class="carousel carousel_bg slide col-11 col-md-8 p-1  m-auto" data-bs-ride="carousel">
+                <div id="carouselProject" data-aos="fade-down" class="carousel carousel_bg slide col-11 col-md-8 p-1  m-auto" data-bs-ride="carousel">
 
 
 
@@ -321,7 +324,7 @@
 
     <!-- clients -->
     <section class="clients p-5">
-        <div class=" exp_clients ">
+        <div class=" exp_clients " data-aos="fade-down">
 
             <h2 class="aff  p-5 text-center">
                 SOME CUSTOMERS OPTNIONS
@@ -329,7 +332,7 @@
 
         </div>
         <div class="row">
-            <div id="carouselclients" class="carousel slide col-12 col-md-8 m-auto" data-bs-ride="carousel">
+            <div data-aos="fade-down" id="carouselclients" class="carousel slide col-12 col-md-8 m-auto" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselclients" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carouselclients" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -388,7 +391,7 @@
     <section class="message_form   m-auto pb-3">
         <div class="container ">
             <div class="row">
-                <div class="exp_message col-12 col-md-6 text-center p-2 ">
+                <div class="exp_message col-10 col-md-5 text-center  m-auto my-3 " data-aos="fade-down">
 
                     <div class="exp_message_bg">
                         <h2 class="aff pt-4">
@@ -402,7 +405,7 @@
                 </div>
 
 
-                <form class="p-5 pt-3 col-11 col-md-6  m-auto">
+                <form class="p-5 pt-3 col-11 col-md-6  m-auto" data-aos="fade-down">
                     <h2>GET QUOTATION</h2>
                     <div class="mb-3">
                         <input type="text" class="form-control" placeholder=" Your Name " id="exampleInputPassword1">
@@ -430,7 +433,7 @@
         <section class="container ">
             <div class="row ">
                 <!-- logo with social icons -->
-                <div class="icons_logo p-3 col-xs-12 col-md-3 ">
+                <div class="icons_logo p-3 col-xs-12 col-md-3 " data-aos="zoom-in">
                     <div class="logo py-3 ">
                         <img src="img/ExPa.PNG ">
                     </div>
@@ -446,7 +449,7 @@
                 </div>
 
                 <!-- services -->
-                <div class="services p-3 col-xs-12 col-md-3 ">
+                <div class="services p-3 col-xs-12 col-md-3 " data-aos="zoom-in">
                     <h4 class="col-xs-12 ">
                         Services
                     </h4>
@@ -463,7 +466,7 @@
                     </ul>
                 </div>
                 <!-- quick links -->
-                <div class="quick_links p-3 col-xs-12 col-md-3 ">
+                <div class="quick_links p-3 col-xs-12 col-md-3 " data-aos="zoom-in">
 
                     <h4>Quick Links</h4>
                     <ul class="navbar-nav ">
@@ -487,7 +490,7 @@
                     </ul>
                 </div>
                 <!-- Comunication -->
-                <div class="comunication p-3 col-xs-12 col-md-3 ">
+                <div class="comunication p-3 col-xs-12 col-md-3 " data-aos="zoom-in">
                     <div class="describe ">
                         <h4>
                             Have a Questions?
@@ -547,6 +550,12 @@
     <script src="js/separate scripts/popper.min.js "></script>
     <script src="js/separate scripts/bootstrap.min.js "></script>
     <script src="JS/jsModify.js "></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
 </body>
 
 </html>
