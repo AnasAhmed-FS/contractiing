@@ -479,7 +479,8 @@
     border-bottom: #ad5389 solid 5px;
     transform: scale(1.1);
     transition: all ease-in-out .5s;
-    box-shadow: 1px 1px 5px 5px rgb(231, 231, 231, .4);
+    box-shadow: 1px 3px 5px 5px rgba(199, 199, 199, 0.5);
+    border-radius: 44px;
 }
 
 .prod_effec_service .properties_prod_effec .card .card-body .card-title {
@@ -493,6 +494,37 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: oblique;
     color: rgba(136, 136, 136, 0.8);
+}
+
+
+/* our services  */
+
+.our_services {
+    background-color: #f6f6f6;
+}
+
+.our_services .dif_our_services h2,
+.our_services .our_services_properties .card-body .card-title {
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800px;
+    padding: 30px;
+}
+
+.our_services .dif_our_services p,
+.our_services .our_services_properties .card-body .card-text {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    color: rgba(136, 136, 136, 0.8);
+}
+
+.our_services .our_services_properties {
+    background-color: #ffffff;
+}
+
+.our_services .our_services_properties .card {
+    margin: 3px;
+    border-radius: 44px;
 }
 
 
