@@ -29,7 +29,7 @@ setInterval(function() {
         count = 0;
     }
     */
-}, 50)
+}, 50);
 
 //  company video   comp_vid_explination
 counts = 0;
@@ -43,7 +43,7 @@ setInterval(function() {
         counts = 0;
     }
 
-}, 100)
+}, 100);
 
 // services
 var myCarousel = document.querySelector('#carouselProject')
@@ -56,6 +56,14 @@ var carousel = new bootstrap.Carousel(myCarousel, {
 // clients
 
 var myCarousel = document.querySelector('#carouselclients')
+var carousel = new bootstrap.Carousel(myCarousel, {
+    interval: 2000,
+    wrap: false,
+    touch: true
+})
+
+
+var myCarousel = document.querySelector('#carouselExampleCaptions')
 var carousel = new bootstrap.Carousel(myCarousel, {
     interval: 2000,
     wrap: false,

@@ -391,10 +391,43 @@
     margin-top: 30px !important;
     border-radius: 44px;
     cursor: pointer;
+    position: relative;
+    padding: 30px;
+}
+
+.ceo .card .icon {
+    display: none;
+    position: absolute;
+    bottom: 2px;
+    left: 29%;
+}
+
+.ceo .card:hover .icon {
+    display: inline-block;
+}
+
+.ceo .card .icon .fab {
+    background-color: #ad5389 !important;
+    color: #fff !important;
+    padding: 8px;
+}
+
+.ceo .card .icon .fab:hover {
+    background-color: #fff !important;
+    color: #ad5389 !important;
+    padding: 5px;
+    transition: all ease-in-out .3s;
 }
 
 
-/* .ceo .card .card-body  */
+/* more information about  productivity  effctiveness */
+
+.prod_effctive h1 {
+    margin-bottom: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+}
 
 
 /* Footer changed  */
