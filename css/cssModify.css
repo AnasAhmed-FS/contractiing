@@ -224,13 +224,13 @@
 /* clients  */
 
 .clients {
-    background-color: #f8fafc;
+    background-color: rgb(248, 250, 252, .5);
 }
 
 .clients .exp_clients .aff {
     border-radius: 44px;
     color: #000;
-    text-shadow: 1px 1px 2px black, 0 0 25px #ad5389, 0 0 5px darkblue;
+    text-shadow: 1px 1px 2px black;
 }
 
 .clients .carousel .carousel-inner {
@@ -430,6 +430,10 @@
 }
 
 
+/* Finsh About us  page
+/////////////////////////////////////////////  */
+
+
 /* services page  */
 
 
@@ -526,6 +530,101 @@
     margin: 3px;
     border-radius: 44px;
 }
+
+.our_services .dif_our_services button {
+    color: #FFF;
+    background-color: #ad5389;
+    border: none;
+}
+
+.our_services .dif_our_services button:hover {
+    background-color: #703458;
+}
+
+
+/* pricing  */
+
+.pricing h2 {
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800px;
+    padding: 30px;
+}
+
+.pricing p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    color: rgba(136, 136, 136, 0.8);
+}
+
+
+/* first pricing btn  */
+
+.pricing .card .card-body .btn-outline-primary {
+    color: #ad5389;
+    border: 3px solid #ad5389;
+    font-weight: 500;
+}
+
+.pricing .card .card-body .btn-outline-primary:hover {
+    color: #ffffff;
+    border: 3px solid #fff;
+    background-color: #ad5389;
+    transition: all ease-in-out .5s;
+}
+
+
+/* second btn */
+
+.pricing .card .card-body .btn-lg.btn-primary {
+    color: #fff;
+    background-color: #ad5389;
+    border: none;
+}
+
+.pricing .card .card-body .btn-lg.btn-primary:hover {
+    background-color: #703458;
+}
+
+.pricing .border-primary {
+    border: solid 3px #ad5389 !important;
+}
+
+.pricing .border-primary .card-header {
+    background-color: #ad5389 !important;
+}
+
+
+/*  final services page 
+///////////////////////////////////////  */
+
+
+/* projectes page   */
+
+
+/* about  slider  */
+
+.project_slider .bg_slider {
+    background-image: url('../img/project.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 480px;
+}
+
+
+/* 
+.about_slider .bg_slider h1 {
+    background-color: rgb(226, 226, 226, .5);
+    border: rgb(226, 226, 226, .5) solid 3px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+} */
+
+
+/*  final projectes page 
+///////////////////////////////////////  */
 
 
 /* Footer changed  */
