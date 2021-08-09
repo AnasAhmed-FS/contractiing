@@ -670,7 +670,7 @@
 /* contact us page  */
 
 .bg_image_services .bg_slider {
-    background-image: url('../img/contactus.jpg');
+    background-image: url('../img/sevices-min.jpg');
     background-size: cover;
     background-position: center;
     height: 480px;
@@ -721,6 +721,34 @@
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: .2rem;
+}
+
+
+/* icons  */
+
+.comunication_message .connection_waye .icon a .fab {
+    background-color: #ad5389 !important;
+    color: #fff !important;
+    padding: 5px;
+}
+
+.comunication_message .connection_waye .icon a .fab:hover {
+    background-color: #fff !important;
+    color: #ad5389 !important;
+    transition: all .8s ease;
+}
+
+
+/* Map  */
+
+.map_location h2 {
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800px;
+    padding: 30px;
+    text-shadow: 3px 3px 10px #ad5389;
+    background-color: #eeeeee;
+    text-align: center;
 }
 
 
