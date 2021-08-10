@@ -32,18 +32,7 @@ document.addEventListener("DOMContentLoaded", function() {
 // }, 50);
 
 // //  company video   comp_vid_explination
-// counts = 0;
-// comp_vid = "Here you will find our Video Excplination and youl will a good idaes from it . Enjoy Waching ^-^  ";
-// // to have set with loop ----> setTimeout 
-// setInterval(function() {
-//     vid = document.getElementById("comp_vid_explination");
-//     vid.innerHTML = comp_vid.substring(0, counts);
-//     counts++;
-//     if (counts > comp_vid.length) {
-//         counts = 0;
-//     }
 
-// }, 100);
 
 // services
 var myCarousel = document.querySelector('#carouselProject')
