@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/cssModify.css">
     <link rel="stylesheet" href="css/bootstrap5.min.css">
     <link rel="stylesheet" href="css/all.min.css">
+
     <!-- AOS animation -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
@@ -96,6 +97,23 @@
                 <div class="row">
                     <div class="definition pt-5 pb-5 col-xm-10 col-md-8 m-auto ">
                         <p id="text_dif" class="text_dif"> </p>
+                        <script>
+                            // //////////////////////////////////
+                            // create move in  intro website  
+                            count = 0;
+                            words = "Welcome, WE ARE CONSTRUCTED, This's our website for <b> EXCELLENCE PALACE COMPANY </b> ,  we are  nice to meet you and we hope to have s a good futuer with us "
+                                // to have set with loop ----> setTimeout 
+                            setInterval(function() {
+                                dif = document.getElementById("text_dif");
+                                dif.innerHTML = words.substring(0, count);
+                                count++;
+                                /* set with loop--->   
+                                if (count > words.length) {
+                                    count = 0;
+                                }
+                                */
+                            }, 50);
+                        </script>
                     </div>
                     <div class="btn_home col-12 m-auto   pt-2 pb-5 " data-aos-duration="1000" data-aos="fade-up">
                         <button type="button" class="btn col-5   offset-3   ">GET START</button>
@@ -556,8 +574,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    <script src="JS/bootstrap5.bundle.min.js "></script>
 
-    <script src="JS/jsModify.js "></script>
+    <script src="JS/contractingmodify.js "></script>
     <!-- AOS -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
